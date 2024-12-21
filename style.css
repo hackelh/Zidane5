@@ -1,0 +1,58 @@
+/* Style général du body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Conteneur principal */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+}
+
+/* Style du titre */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Style du tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+/* Style des cellules de tableau */
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Style de l'en-tête du tableau */
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Style des lignes de tableau */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Style au survol des lignes */
+tr:hover {
+    background-color: #ddd;
+}
